@@ -46,14 +46,14 @@ untuk menambahkan file yang baru saja dibuat gunakan perintah git add
 ```
 $ git add README.md
 ```
-![gambar5]
+![gambar5](gambar/inay7.png)
 
 ## Menyimpan Perubahan ke database(Commit)
 untuk menyiapkan perubahan yang ada kedalam database repository local, gunakan perintah
 ```
 $ git commit -m "simpan"
 ```
-![gambar6]
+![gambar6](gambar/inay8.png)
 
 ## Membuat Repository Sever
 Server Reopsitory yang di gunakan http://github.com. ada harus membuat akun terlebih dahulu.pada github, klik tombol strart a project, atau dari menu (icon+) klik new Repository
@@ -74,14 +74,15 @@ untuk mengirim perubahan pada local repository ke server gunakan perintah git pu
 $git pus -u origin master
 ```
 lalu perintah akan meminta memasukan username dan pada akun github.com
-![gambar8]
+![gambar8](gambar/inay9.png)
 
 ## Melihat hasilnya pada server Repository
-buka halaman github.com arahkan pada repositorinya. maka  perubhan akan terlihat pada laman tersebut
-![gambar9]
+buka halaman github.com arahkan pada repositorinya. maka  perubahan akan terlihat pada laman tersebut
+![gambar9](gambar/inay10.png)
 
 ## Clone Repository
 clone repository adalah meng-copy repository server dan secara otomatis membuat suatu direoktory sesuai dengan nama respositorynya (working directory). untuk melakukan cloning, mengunakan perintah
 ```
 git clone [url]
 ```
+![gambar10](gambar/inay11.png)
